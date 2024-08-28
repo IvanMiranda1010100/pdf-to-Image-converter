@@ -1,0 +1,19 @@
+{
+  "name": "extraer-imagenes-pdf",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Ivan Miranda",
+  "license": "ISC",
+  "description": "ES:Una herramienta para convertir archivos PDF en imágenes JPG/PNG y renombrarlas en una secuencia numérica continua.EN:A tool to convert PDF files into JPG/PNG images and rename them in a continuous numerical sequence."
+  ,
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "pdf-poppler": "^0.2.1"
+  }
+}
